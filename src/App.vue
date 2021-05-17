@@ -48,11 +48,14 @@ export default {
   .table-top
     display: grid;
     grid-row-gap: 24px; 
+    margin: 0px auto;
     margin-bottom: 32px;
-    grid-template-columns: auto auto;
+    max-width: 1140px;
+    grid-template-columns: 1fr 0.8fr;
     &-right
-      display: grid;
-      grid-template-columns: auto auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
 
   .container
     font-family: arial, sans-serif;

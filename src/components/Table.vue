@@ -104,6 +104,8 @@ export default {
     border-radius: 5px
     overflow-x: scroll;
     overflow-y: hidden;
+    width: 1140px
+    margin: 0px auto;
     box-shadow: 0.2rem 0.1rem 0.4em rgba(0, 0, 0, 0.2)
 
   .inner

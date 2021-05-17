@@ -17,7 +17,7 @@
 
 <script>
 import TableStatusLabel from './TableStatusLabel.vue'
-import ViewProductBtn from './ViewProductBtn.vue';
+import ViewProductBtn from './ViewProduct.vue';
 
 import '../assets/index.sass'
 export default {
@@ -40,7 +40,7 @@ export default {
 <style lang="sass" scoped>
   .overlay
     position: absolute;
-    width: 82.1%;
+    width: 78%;
     height: 92px;
     overflow-y: scroll;
     text-align: center;

@@ -1,5 +1,5 @@
 <template>
-  <div style="z-index:1000" class="container">
+  <div style="z-index:1000" class="overlay-container">
     <button class="vp-btn">View Product</button>
   </div>
 </template>
@@ -24,13 +24,13 @@ export default {
       transform: translate(-50%, -50%);
       cursor: pointer;
       
-  .container
+  .overlay-container
     position: relative;
     width: 100%;
     height: 92px;
     background: inherit;
 
-  .container:before
+  .overlay-container:before
     content: '';
     position: absolute;
     width: 100%;
